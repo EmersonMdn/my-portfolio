@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -288,18 +288,80 @@
 
             <div class="services__container container grid">
                 <div class="services__card">
-                    <h3 class="services__title">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="services__title">Lorem ipsum <br> dolor sit amet.</h3>
                     <span class="services__button">See more <i class='bx bx-right-arrow-alt services__icon'></i></span>
+
+                    <div class="services__modal">
+
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Product manager</h3>
+                            <p class="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Reprehenderit, quo.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div class="services__card">
-                    <h3 class="services__title">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="services__title">Lorem ipsum <br> dolor sit amet.</h3>
                     <span class="services__button">See more <i class='bx bx-right-arrow-alt services__icon'></i></span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Product manager</h3>
+                            <p class="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Reprehenderit, quo.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="services__card">
-                    <h3 class="services__title">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="services__title">Lorem ipsum <br> dolor sit amet.</h3>
                     <span class="services__button">See more <i class='bx bx-right-arrow-alt services__icon'></i></span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Product manager</h3>
+                            <p class="services__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Reprehenderit, quo.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -307,15 +369,184 @@
         <!--=============== WORK ===============-->
         <section class="work section" id="work">
 
+            <span class="section__subtitle">My portfolio</span>
+            <h2 class="section__title">Recent works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">all</span>
+                <span class="work__item" data-filter=".web">web</span>
+                <span class="work__item" data-filter=".movil">movil</span>
+                <span class="work__item" data-filter=".design">design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <h3 class="work__title">Title</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work2.jpg" alt="">
+
+                    <h3 class="work__title">Title</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work3.jpg" alt="">
+
+                    <h3 class="work__title">Title</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work4.jpg" alt="">
+
+                    <h3 class="work__title">Title</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/work1.jpg" alt="">
+
+                    <h3 class="work__title">Title</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+
         </section>
 
         <!--=============== TESTIMONIALS ===============-->
         <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="testimonial__card swiper-slide">
+                        <img class="testimonial__img" src="assets/img/testimonial1.png" alt="">
+                        <h3 class="testimonial__name">Ana De Nicolo</h3>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis incidunt minima deleniti quisquam natus.</p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img class="testimonial__img" src="assets/img/testimonial2.png" alt="">
+                        <h3 class="testimonial__name">Ana De Nicolo</h3>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis incidunt minima deleniti quisquam natus.</p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img class="testimonial__img" src="assets/img/testimonial3.png" alt="">
+                        <h3 class="testimonial__name">Ana De Nicolo</h3>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis incidunt minima deleniti quisquam natus.</p>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
 
         </section>
 
         <!--=============== CONTACT ===============-->
         <section class="contact section" id="contact">
+
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contect me</h2>
+
+            <div class="contact__container container grid">
+
+                <div class="contact__content">
+                    <h3 class="contact__title">talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@mail.com</span>
+
+                            <a href="#" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@mail.com</span>
+
+                            <a href="#" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@mail.com</span>
+
+                            <a href="#" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">write me your project</h3>
+
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Names</label>
+                            <input type="text" class="contact__form-input" placeholder="Insert your name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" class="contact__form-input" placeholder="Insert your mail">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Project</label>
+                            <textarea name="" id="" cols="30" rows="10" class="contact__form-input"
+                                placeholder="Write your project"></textarea>
+                        </div>
+
+                        <button class="button">Send message</button>
+
+                    </form>
+
+
+
+
+
+                </div>
+            </div>
+
 
         </section>
     </main>
@@ -328,10 +559,10 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="/assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="./scripts/main.js"></script>
