@@ -26,7 +26,6 @@ let modal = function (modalClick) {
 modalBtns.forEach((modalButton, i) => {
   modalButton.addEventListener("click", () => {
     modal(i); // Llama a la función "modal" pasando el índice actual como argumento para mostrar la vista modal correspondiente
-    console.log("active modal clicked");
   });
 });
 
