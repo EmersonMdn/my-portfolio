@@ -1087,6 +1087,7 @@ body.light-theme {
   .services__container {
     grid-template-columns: repeat(3, 200px);
     column-gap: 3rem;
+    padding-bottom: 4rem;
   }
 
   .services__card {

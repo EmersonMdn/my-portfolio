@@ -160,3 +160,18 @@ sr.reveal(
   ".about, .skills, .services, .work, .testimonial, .contact, .footer",
   { delay: 200, origin: "bottom" }
 );
+
+/*===================== SEND MESSAGE===========================*/
+
+const button = document.getElementById("send-message");
+
+button.onclick = (e) => {
+  e.preventDefault();
+  Swal.fire({
+    position: "center",
+    icon: "success",
+    title: "Mensaje enviado!",
+    showConfirmButton: false,
+    timer: 1500,
+  });
+};
