@@ -1,3 +1,4 @@
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 
 function scrollHeader() {
@@ -150,16 +151,16 @@ const sr = ScrollReveal({
 
 sr.reveal(".home__data");
 sr.reveal(".home__handle", { delay: 700 });
-sr.reveal(".home__social, .home__scroll", {
+sr.reveal(".home__social, .home__scroll, .footer", {
   delay: 900,
   origin: "bottom",
   reset: false,
 });
 
-sr.reveal(
-  ".about, .skills, .services, .work, .testimonial, .contact, .footer",
-  { delay: 200, origin: "bottom" }
-);
+sr.reveal(".about, .skills, .services, .work, .testimonial, .contact", {
+  delay: 200,
+  origin: "bottom",
+});
 
 /*===================== SEND MESSAGE===========================*/
 
@@ -175,3 +176,4 @@ button.onclick = (e) => {
     timer: 1500,
   });
 };
+
