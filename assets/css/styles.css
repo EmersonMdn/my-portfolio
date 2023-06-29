@@ -173,8 +173,7 @@ body.light-theme {
 .light-theme .skills__content,
 .light-theme .services__card,
 .light-theme .work__card,
-.light-theme .testimonial__card,
-.light-theme .contact__card {
+.light-theme .light-theme .contact__card {
   box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, 0.1);
 }
 
@@ -332,7 +331,7 @@ body.light-theme {
 }
 .home__handle {
   justify-self: center;
-  width: 190px;
+  width: 200px;
   height: 293px;
   background: linear-gradient(
     180deg,
@@ -691,35 +690,6 @@ body.light-theme {
   color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
-
-.testimonial__container {
-  background-color: var(--container-color);
-  padding: 1.25rem 1.5rem;
-  border-radius: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: 1rem;
-}
-
-.testimonial__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-}
-.testimonial__card {
-  margin-bottom: 2.25rem;
-  padding: 1rem;
-}
-
-.testimonial__description {
-  font-size: var(--small-font-size);
-  margin-bottom: 2.5rem;
-}
-
 /* Swiper class */
 .swiper-pagination-bullet {
   background-color: var(--text-color-light);
@@ -911,9 +881,6 @@ body.light-theme {
     height: 253px;
   }
 
-  .home__img {
-    width: 130px;
-  }
 
   .about__info {
     grid-template-columns: repeat(2, 1fr);
@@ -1036,7 +1003,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    width: 300px;
   }
 
   .home__social-link {
@@ -1108,14 +1075,6 @@ body.light-theme {
 
   .work__title {
     margin-bottom: 0.5rem;
-  }
-
-  .testimonial__container {
-    width: 750px;
-  }
-
-  .testimonial__card {
-    padding: 1.5rem 2rem;
   }
 
   .contact__container {

@@ -56,26 +56,7 @@ function activeWork() {
 
 linkWork.forEach((link) => link.addEventListener("click", activeWork)); // Agrega un controlador de eventos de clic a cada elemento con la clase "work__item" para llamar a la función "activeWork" cuando se hace clic en ellos
 
-/*=============== SWIPER TESTIMONIAL ===============*/
 
-let swiperTestimonial = new Swiper(".testimonial__container", {
-  spaceBetween: 24,
-  grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  loop: true,
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 48,
-    },
-  },
-});
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
