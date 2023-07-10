@@ -798,6 +798,12 @@ body.light-theme {
   resize: none;
 }
 
+.contact__warning {
+  color: var(--first-color);
+  width: 100%;
+  display: block;
+}
+
 /*=============== FOOTER ===============*/
 
 .footer {
@@ -880,7 +886,6 @@ body.light-theme {
     width: 150px;
     height: 253px;
   }
-
 
   .about__info {
     grid-template-columns: repeat(2, 1fr);
