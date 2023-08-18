@@ -300,6 +300,10 @@ body.light-theme {
   position: relative;
   row-gap: 4.5rem;
   padding-top: 2rem;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home__data {
   text-align: center;
